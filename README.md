@@ -1,5 +1,6 @@
 # RAChecker
 SCP:SL Remote admin usage chekcer<br>
+***THIS IS INCOMPLETE YET***
 <br>
 # How to use
 Start "main.bat", and input your log derectory location<br>
