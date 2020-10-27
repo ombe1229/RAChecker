@@ -1,9 +1,9 @@
 @echo off
 cls
 
-set /a mainloc=%CD%
-set /p location=Please input log directory location:
-cd %location%
-findstr /s "Remote Admin" * > %mainloc%\result.txt
+set main=%cd%
+set /p port=Please input port number:
+cd %appdata%\"SCP Secret Laboratory"\ServerLogs\%port%
+findstr /s "Remote Admin" * > %main%\result.txt
 set /p a=Completed. Enter to open "result.txt", ctrl+c to exit.
-start %CD%\result.txt
+start %main%\result.txt
